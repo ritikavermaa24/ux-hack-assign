@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ux-hack-assign/static/css/main.7503e388.chunk.css",
+    "main.js": "/ux-hack-assign/static/js/main.2e51c7bb.chunk.js",
+    "main.js.map": "/ux-hack-assign/static/js/main.2e51c7bb.chunk.js.map",
+    "runtime-main.js": "/ux-hack-assign/static/js/runtime-main.f2e729b1.js",
+    "runtime-main.js.map": "/ux-hack-assign/static/js/runtime-main.f2e729b1.js.map",
+    "static/js/2.32eda677.chunk.js": "/ux-hack-assign/static/js/2.32eda677.chunk.js",
+    "static/js/2.32eda677.chunk.js.map": "/ux-hack-assign/static/js/2.32eda677.chunk.js.map",
+    "index.html": "/ux-hack-assign/index.html",
+    "static/css/main.7503e388.chunk.css.map": "/ux-hack-assign/static/css/main.7503e388.chunk.css.map",
+    "static/js/2.32eda677.chunk.js.LICENSE.txt": "/ux-hack-assign/static/js/2.32eda677.chunk.js.LICENSE.txt",
+    "static/media/Homemain.f427a032.png": "/ux-hack-assign/static/media/Homemain.f427a032.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2e729b1.js",
+    "static/js/2.32eda677.chunk.js",
+    "static/css/main.7503e388.chunk.css",
+    "static/js/main.2e51c7bb.chunk.js"
+  ]
+}
