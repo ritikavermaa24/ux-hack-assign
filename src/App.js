@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import Popup from './components/Popup';
+import  homemain from "./images/Homemain.png";
 
 function App() {
+  //const [buttonPopup,setButtonPopup]= useState(false);
+  const [popupt,setPopupt]= useState(false);
+  //<button onClick={()=>setButtonPopup(true)}>open</button>
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      setPopupt(true);
+    },5000);
+  },[]);
+
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        <img src={homemain}/>
+        
+    
+      </main>
+      <Popup trigger={popupt} setTrigger={setPopupt}>
+       
+      </Popup>
+    
     </div>
   );
 }
